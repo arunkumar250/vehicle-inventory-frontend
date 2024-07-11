@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333; /* Dark text color */
+}
+
+h2 {
+    text-align: center;
+    color: #333; /* Dark heading color */
+}
+
+h3 {
+    text-align: right;
+    color: #333; /* Dark heading color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #e0e0e0; /* Light grey background */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e0e0e0; /* Light grey background */
+    color: #333; /* Dark text color */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey background */
+}
+
+button#showOrdersButton, button#showUsersButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+    background-color: #e0e0e0; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#showOrdersButton:hover, button#showUsersButton:hover {
+    background-color: #d0d0d0; /* Slightly darker grey background */
+}
+
+#searchContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#searchInput {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px;
+}
+
+button#searchButton {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+    background-color: #e0e0e0; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#searchButton:hover {
+    background-color: #d0d0d0; /* Slightly darker grey background */
+}
+
+button#logoutButton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #333; /* Dark text color */
+    background-color: #e0e0e0; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button#logoutButton:hover {
+    background-color: #d0d0d0; /* Slightly darker grey background */
+}
+
+.confirm-button, .cancel-button {
+    padding: 10px 20px;
+    color: #333; /* Dark text color */
+    background-color: #e0e0e0; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.confirm-button:hover, .cancel-button:hover {
+    background-color: #d0d0d0; /* Slightly darker grey background */
+}

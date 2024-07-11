@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Display</title>
+    <link rel="stylesheet" href="vehicleDisplay.css">
+</head>
+<body>
+    <h2>Vehicle Details</h2>
+    <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Search">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>BRAND</th>
+                <th>MODEL</th>
+                <th>ENGINE CC</th>
+                <th>PRICE</th>
+                <th>AVAILABLE COUNT</th>
+                <th>REQUIRED VEHICLES</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        <tbody id="vehicleTableBody">
+            <!-- Vehicle rows will be populated here -->
+        </tbody>
+    </table>
+    <button id="cartSummaryButton" class="cart-summary-button" style="display:none;">Cart Total: ₹<span id="cartTotal">0</span></button>
+    <button id="buyButton" class="buy-button">Buy</button>
+    <button id="backButton" class="back-button">Back</button>
+
+    <!-- Hidden form to pass cart data to purchase summary page -->
+    <form id="purchaseForm" action="purchaseSummary.html" method="POST" style="display:none;">
+        <input type="hidden" name="cartData" id="cartData">
+        <input type="hidden" name="totalAmount" id="totalAmount">
+    </form>
+
+    <script src="vehicleDisplay.js"></script>
+</body>
+</html>

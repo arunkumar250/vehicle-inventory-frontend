@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <!-- Username input -->
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <small id="usernameError" class="error"></small>
+            </div>
+            <!-- Password input -->
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <small id="passwordError" class="error"></small>
+            </div>
+            <!-- Login button -->
+            <button type="submit">Login</button>
+        </form>
+        <div class="signup-link">
+            <p>New User?</p>
+            <button id="signupButton">Create an Account</button>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

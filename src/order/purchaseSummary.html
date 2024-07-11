@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Summary</title>
+    <link rel="stylesheet" href="purchaseSummary.css">
+</head>
+<body>
+    <h2>Purchase Summary</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>BRAND</th>
+                <th>MODEL</th>
+                <th>PRICE</th>
+                <th>QUANTITY</th>
+                <th>SUBTOTAL</th>
+                <th>GST %</th>
+                <th>GST AMOUNT</th>
+            </tr>
+        </thead>
+        <tbody id="summaryTableBody">
+            <!-- Summary rows will be populated here -->
+        </tbody>
+    </table>
+    <h3>Total: ₹<span id="totalAmount">0.00</span></h3>
+    <button id="confirmButton" class="confirm-button">Confirm Purchase</button>
+    <button id="cancelButton" class="cancel-button">Cancel</button>
+    <script src="purchaseSummary.js"></script>
+</body>
+</html>

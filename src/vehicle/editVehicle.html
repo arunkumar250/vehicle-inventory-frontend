@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Vehicle</title>
+    <link rel="stylesheet" href="editVehicle.css">
+</head>
+<body>
+    <h2>Edit Vehicle</h2>
+    <form id="editVehicleForm">
+        <label for="brandName">Brand Name:</label>
+        <input type="text" id="brandName" name="brandName" required><br>
+
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model" required><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required><br>
+
+        <label for="availableCount">Available Count:</label>
+        <input type="number" id="availableCount" name="availableCount" required><br>
+
+        <label for="engineCapacity">Engine Capacity (cc):</label>
+        <input type="number" id="engineCapacity" name="engineCapacity" required><br> <!-- New field for engine capacity -->
+
+        <button type="submit">Save Vehicle</button>
+    </form>
+    <script src="editVehicle.js"></script>
+</body>
+</html>

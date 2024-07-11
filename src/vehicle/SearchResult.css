@@ -1,0 +1,34 @@
+/* Example styling, adjust as per your design */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.vehicle-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.vehicle-model {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.vehicle-price {
+    color: green;
+}
+
+.vehicle-engine {
+    color: blue;
+}
+
+.vehicle-brand {
+    font-style: italic;
+}
+
+.vehicle-created-at {
+    font-size: 12px;
+    color: #888;
+}
